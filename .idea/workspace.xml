@@ -7,68 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a3a162e-1c03-4277-8734-64f25a214d0f" name="Default Changelist" comment="代码规范">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/JdbcUtils_DBCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/servlet/cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dbcpconfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/components/category.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/components/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/components/search.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/components/tip.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/shopdemo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/shopdemo_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/dao/GoodsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/dao/GoodsDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/dao/SqlDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/dao/SqlDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/dao/impl/constance/GoodsDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/dao/impl/constance/GoodsDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/dao/impl/constance/SqlDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/dao/impl/constance/SqlDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/dao/impl/constance/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/dao/impl/constance/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/entity/Goods.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/entity/Goods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/servlet/index.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/servlet/index.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/servlet/login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/servlet/login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/servlet/logout.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/servlet/logout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/servlet/mine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/servlet/mine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/servlet/register.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/servlet/register.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/servlet/updateUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/servlet/updateUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/util/CookieUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/com/util/CookieUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/classes/database.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/jsp/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/jsp/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/jsp/mine.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/WEB-INF/jsp/mine.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shopdemo_war_exploded/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopdemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shopdemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/impl/constance/GoodsDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/impl/constance/GoodsDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/impl/constance/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/impl/constance/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/servlet/updateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/servlet/updateUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dao/GoodsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dao/GoodsDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dao/SqlDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dao/SqlDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dao/impl/constance/GoodsDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dao/impl/constance/GoodsDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dao/impl/constance/SqlDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dao/impl/constance/SqlDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dao/impl/constance/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dao/impl/constance/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/entity/Goods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/entity/Goods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/servlet/index.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/servlet/index.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/servlet/login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/servlet/login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/servlet/logout.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/servlet/logout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/servlet/mine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/servlet/mine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/servlet/register.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/servlet/register.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/servlet/updateUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/servlet/updateUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/util/CookieUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/util/CookieUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/mine.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/mine.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/components/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/components/search.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -119,11 +59,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/cart.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="437">
+              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -131,17 +71,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/components/header.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+            <state relative-caret-position="38">
+              <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/components/category.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="57">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -186,16 +129,10 @@
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/components/tip.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/components/search.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -253,7 +190,6 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/components/header.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/components/search.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/components/tip.jsp" />
         <option value="$PROJECT_DIR$/web/register.jsp" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
@@ -269,6 +205,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dao/impl/constance/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dao/impl/constance/GoodsDaoImpl.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/cart.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/components/search.jsp" />
       </list>
     </option>
   </component>
@@ -471,7 +408,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="tasks.servers" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -607,12 +544,12 @@
       <workItem from="1560577556565" duration="7974000" />
       <workItem from="1560591957681" duration="4414000" />
       <workItem from="1560738937139" duration="14010000" />
-      <workItem from="1561340344833" duration="815000" />
+      <workItem from="1561340344833" duration="1432000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54288000" />
+    <option name="totallyTimeSpent" value="54905000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -904,22 +841,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/cart.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/components/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/components/category.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="437">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -951,17 +874,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/components/tip.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/components/search.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#3;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/components/tip.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/components/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/components/category.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
