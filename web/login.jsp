@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: annan
@@ -5,7 +6,7 @@
   Time: 10:00
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -17,11 +18,8 @@
     <form action="/login" method="post">
         用户名：<input type="text" name="username"></br>
         密码：<input type="text" name="password"></br>
-        <div style="color: #ff6120">
-            <%String tip = (String)request.getAttribute("tip");%>
-            <%=(tip!=null)?tip:""%>
-        </div>
-        <input type="submit" value="登录"></input>
+        <c:import url="/WEB-INF/components/tip.jsp"></c:import>
+        <input type="submit" value="登录"/>
     </form>
     <button><a href="/register.jsp">注册</a></button>
     <button><a href="/index">暂不登录</a></button>

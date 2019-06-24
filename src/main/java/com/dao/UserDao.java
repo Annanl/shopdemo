@@ -1,6 +1,5 @@
 package com.dao;
 
-
 import com.entity.User;
 
 public interface UserDao {
@@ -19,6 +18,4 @@ public interface UserDao {
 
     //获得用户信息
     User getUser(String username);
-
-
 }

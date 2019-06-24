@@ -1,5 +1,6 @@
 package com.dao.impl.constance;
 
+import com.dao.JdbcUtils_DBCP;
 import com.entity.Goods;
 import com.entity.User;
 import com.dao.GoodsDao;
@@ -13,7 +14,15 @@ import java.util.List;
 
 public class GoodsDaoImpl implements GoodsDao {
 
-    private static Connection con = new SqlDaoImpl().getConnection();
+    private Connection con;
+
+    {
+        try {
+            con = JdbcUtils_DBCP.getConnection();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 
     @Override
     public List<Goods> getGoodsList(String scope) {
@@ -28,18 +37,20 @@ public class GoodsDaoImpl implements GoodsDao {
                 rs = ps.executeQuery();
                 while (rs.next()){
                     list.add(new Goods(
-                            rs.getString("goods_name"),
-                            rs.getString("goods_price"),
-                            rs.getString("goods_detail")
+                            rs.getString("name"),
+                            rs.getString("price"),
+                            rs.getString("detail")
                     ));
                 }
             } catch (SQLException e) {
                 e.printStackTrace();
+            } finally {
+                JdbcUtils_DBCP.release(con,ps,rs);
             }
             return list;
         }else {
             ResultSet rs = null;
-            String sql = "select * from goods where goods_name like ?";
+            String sql = "select * from goods where name like ?";
             PreparedStatement ps = null;
             User user = new User();
             ArrayList<Goods> list = new ArrayList<Goods>();
@@ -49,13 +60,15 @@ public class GoodsDaoImpl implements GoodsDao {
                 rs = ps.executeQuery();
                 while (rs.next()){
                     list.add(new Goods(
-                            rs.getString("goods_name"),
-                            rs.getString("goods_price"),
-                            rs.getString("goods_detail")
+                            rs.getString("name"),
+                            rs.getString("price"),
+                            rs.getString("detail")
                     ));
                 }
             } catch (SQLException e) {
                 e.printStackTrace();
+            } finally {
+                JdbcUtils_DBCP.release(con,ps,rs);
             }
             return list;
         }
