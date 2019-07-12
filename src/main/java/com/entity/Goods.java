@@ -5,6 +5,7 @@ public class Goods {
     private String name;
     private String price;
     private String detail;
+    private int number;
 
     public Goods() {
     }
@@ -13,6 +14,13 @@ public class Goods {
         this.name = name;
         this.price = price;
         this.detail = detail;
+    }
+
+    public Goods(String name, String price, String detail, int number) {
+        this.name = name;
+        this.price = price;
+        this.detail = detail;
+        this.number = number;
     }
 
     public String getId() {

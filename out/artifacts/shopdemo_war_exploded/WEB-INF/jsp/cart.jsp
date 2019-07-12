@@ -15,7 +15,10 @@
 </head>
 <body>
 <div>
-    <c:import url="../components/header.jsp"></c:import>
+    <c:import url="/WEB-INF/components/header.jsp"></c:import>
+    <div>
+        <c:import url="/WEB-INF/components/category.jsp"></c:import>
+    </div>
 </div>
 </body>
 </html>
