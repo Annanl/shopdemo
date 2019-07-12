@@ -1,7 +1,7 @@
 package com.entity;
 
 public class Goods {
-    private String id;
+    private int id;
     private String name;
     private String price;
     private String detail;
@@ -10,24 +10,26 @@ public class Goods {
     public Goods() {
     }
 
-    public Goods(String name, String price, String detail) {
+    public Goods(int id, String name, String price, String detail) {
+        this.id = id;
         this.name = name;
         this.price = price;
         this.detail = detail;
     }
 
-    public Goods(String name, String price, String detail, int number) {
+    public Goods(int id, String name, String price, String detail, int number) {
+        this.id = id;
         this.name = name;
         this.price = price;
         this.detail = detail;
         this.number = number;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -53,5 +55,13 @@ public class Goods {
 
     public void setDetail(String detail) {
         this.detail = detail;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
     }
 }

@@ -37,6 +37,7 @@ public class GoodsDaoImpl implements GoodsDao {
                 rs = ps.executeQuery();
                 while (rs.next()){
                     list.add(new Goods(
+                            rs.getInt("id"),
                             rs.getString("name"),
                             rs.getString("price"),
                             rs.getString("detail")
@@ -60,6 +61,7 @@ public class GoodsDaoImpl implements GoodsDao {
                 rs = ps.executeQuery();
                 while (rs.next()){
                     list.add(new Goods(
+                            rs.getInt("id"),
                             rs.getString("name"),
                             rs.getString("price"),
                             rs.getString("detail")

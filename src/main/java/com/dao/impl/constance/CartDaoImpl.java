@@ -37,7 +37,8 @@ public class CartDaoImpl implements CartDao {
     @Override
     public List<Goods> getCart(String userId) {
         ResultSet rs = null;
-        String sql = "select * from cart where cart_userid=?";
+        ResultSet rs2 = null;
+        String sql = "select goods.id,goods.name,goods.price,goods.detail,cart.number from cart,goods where cart.userid=? and cart.goodsid=goods.id";
         PreparedStatement ps = null;
         List<Goods> list = new ArrayList<Goods>();
         try {
@@ -46,9 +47,11 @@ public class CartDaoImpl implements CartDao {
             rs = ps.executeQuery();
             while (rs.next()) {
                 list.add(new Goods(
+                        rs.getInt("id"),
                         rs.getString("name"),
                         rs.getString("price"),
-                        rs.getString("detail")
+                        rs.getString("detail"),
+                        rs.getInt("number")
                 ));
             }
         } catch (SQLException e) {
