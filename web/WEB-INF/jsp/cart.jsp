@@ -17,7 +17,29 @@
 <div>
     <c:import url="/WEB-INF/components/header.jsp"></c:import>
     <div>
-        <c:import url="/WEB-INF/components/category.jsp"></c:import>
+        <br>
+        <div>购物车列表</div>
+        <br>
+        <div>
+            <table class="goodsList" border="1" style="margin: 0 auto">
+                <tr>
+                    <th><b>商品序号</b></th>
+                    <th><b>商品名称</b></th>
+                    <th><b>商品价格</b></th>
+                    <th><b>商品介绍</b></th>
+                    <th><b>商品数量</b></th>
+                </tr>
+                <c:forEach items="${requestScope.list}" var="row" varStatus="status">
+                    <tr>
+                        <td>${status.index + 1}</td>
+                        <td>${row.name}</td>
+                        <td>${row.price}</td>
+                        <td>${row.detail}</td>
+                        <td>${row.number}</td>
+                    </tr>
+                </c:forEach>
+            </table>
+        </div>
     </div>
 </div>
 </body>

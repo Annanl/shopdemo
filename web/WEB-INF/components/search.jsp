@@ -28,6 +28,7 @@
                     <th><b>商品名称</b></th>
                     <th><b>商品价格</b></th>
                     <th><b>商品介绍</b></th>
+                    <th><b>操作</b></th>
                 </tr>
                 <c:forEach items="${requestScope.goodsList}" var="row" varStatus="status">
                     <tr>
@@ -35,6 +36,7 @@
                         <td>${row.name}</td>
                         <td>${row.price}</td>
                         <td>${row.detail}</td>
+                        <td>加入购物车</td>
                     </tr>
                 </c:forEach>
             </table>

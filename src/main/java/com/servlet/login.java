@@ -35,7 +35,10 @@ public class login extends HttpServlet {
                 request.getSession().setAttribute("username",user.getUsername());
                 Cookie cookie = new Cookie("username",user.getUsername());
                 cookie.setMaxAge(2*24*60*60);
+                Cookie cookie2 = new Cookie("userid",user.getId());
+                cookie2.setMaxAge(2*24*60*60);
                 response.addCookie(cookie);
+                response.addCookie(cookie2);
                 response.sendRedirect("/index");
                 //request.getRequestDispatcher( "/index").forward(request, response);
             }else {

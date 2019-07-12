@@ -16,17 +16,10 @@ public class cart extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("购物车打开");
         CartDaoImpl cart = new CartDaoImpl();
-        List<Goods> list = cart.getCart("11");
-        for (int i=0;i<list.size();i++){
-            System.out.println("**********");
-            System.out.print(list.get(i).getId() + "\t");
-            System.out.print(list.get(i).getName() + "\t");
-            System.out.print(list.get(i).getPrice() + "\t");
-            System.out.print(list.get(i).getDetail() + "\t");
-            System.out.println(list.get(i).getNumber() + "\t");
-        }
+        String userid = (String) req.getParameter("userid");
+        List<Goods> list = cart.getCart(userid);
+        req.setAttribute("list",list);
         req.getRequestDispatcher("/WEB-INF/jsp/cart.jsp").forward(req,resp);
     }
 
